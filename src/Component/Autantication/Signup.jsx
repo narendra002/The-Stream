@@ -15,9 +15,9 @@ const Signup = () => {
                        <TextField label=" Create Strong Password" variant="outlined" className='Email'  />
 
                     </div>
-                    
+
                     <div className='Alredyacc'>
-                        <h>Aleready have an account? <a href='./signin'>Login</a></h>
+                        <h>Already have an account? <a href='./signin'>Login</a></h>
                         <button className='Loginbtn'>Signup</button>
                     </div>
                 </div>
