@@ -6,6 +6,9 @@ import Movies from "./Component/Movies/Movies"
 import Anime from "./Component/Anime/Anime"
 import TvShows from "./Component/TvShows/TvShows"
 import MovieMain from "./Component/Movies/MovieMain"
+import Signin from "./Component/Autantication/Signin"
+import Signup from "./Component/Autantication/Signup"
+import Forgetpass from "./Component/Autantication/Forgetpass"
 
 import {BrowserRouter as Router ,Routes,Route} from "react-router-dom"
 
@@ -20,6 +23,9 @@ import {BrowserRouter as Router ,Routes,Route} from "react-router-dom"
 	  <Route path="/TvShows" element={<TvShows/>}/>
    	<Route path="/Anime" element={<Anime/>}/>
    	<Route path="/MovieMain" element={<MovieMain/>}/>
+   	<Route path="/Signin" element={<Signin/>}/>
+   	<Route path="/Signup" element={<Signup/>}/>
+    <Route path="/Forgetpass" element={<Forgetpass/>}/>
 
     </Routes>
  

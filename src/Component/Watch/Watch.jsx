@@ -24,8 +24,8 @@ import { useLocation } from 'react-router-dom';
 const Watch =()=>{
   
   const location=useLocation();
-  const { tvShow } = location.state;
-console.log(tvShow);
+  const { movie } = location.state;
+  console.log(movie);
 
   	const upcoming =MoviesApi(UpcomingMovies);
 	const Popular =MoviesApi(PopularMovies);
@@ -43,9 +43,9 @@ console.log(tvShow);
     <Player/>
     <TvShowDescription/>
     {/* <Moviedescription/> */}
-    {/* <a href={tvShow.trailer} target="_blank" rel="noopener noreferrer">
+    {/* <a href={movie.video} target="_blank" rel="noopener noreferrer">
   Go to Watch TvShow
-</a> */}
+    </a> */}
     </div>
           <Comment/>
 
