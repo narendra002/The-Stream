@@ -15,14 +15,12 @@ const Signup = () => {
                        <TextField label=" Create Strong Password" variant="outlined" className='Email'  />
 
                     </div>
-
                     <div className='Alredyacc'>
                         <h>Already have an account? <a href='./signin'>Login</a></h>
                         <button className='Loginbtn'>Signup</button>
                     </div>
                 </div>
             </div>
-   
     );
 };
 
