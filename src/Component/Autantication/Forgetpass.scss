@@ -1,17 +1,18 @@
-.forgetmain{
+.forgetmain {
     display: flex;
     // background-image: url('');
-    background-color: rgb(12,37,49);
+    background-color: rgb(12, 37, 49);
     // align-items: center;
     // justify-content: center;
-    
-    width:100%;
-    height:730px;
-    
-    background: rgb(12,37,50);
-    background: radial-gradient(circle, rgba(12,37,50,1) 82%, rgba(15,14,14,1) 100%);
+
+    width: 100%;
+    height: 730px;
+
+    background: rgb(12, 37, 50);
+    background: radial-gradient(circle, rgba(12, 37, 50, 1) 82%, rgba(15, 14, 14, 1) 100%);
 }
-.reset{
+
+.reset {
     width: fit-content;
     height: 800px;
     // background-color: red;
@@ -26,11 +27,11 @@
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
 
-.Verify{
+.Verify {
     align-self: center;
     width: 50%;
-    padding: 10px 40px 10px 40px ;
-    background-color:red;
+    padding: 10px 40px 10px 40px;
+    background-color: red;
     border-radius: 20px;
     border: 2px solid #2c3e3f;
     transform: 25px;
@@ -38,19 +39,22 @@
     background: transparent;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
-.sendotp{
+
+.sendotp {
     align-self: center;
     width: 50%;
     margin-top: 20px;
-    padding: 10px 40px 10px 40px ;
-    background-color:red;
+    padding: 10px 40px 10px 40px;
+    background-color: red;
     border-radius: 20px;
     border: 2px solid #2c3e3f;
     transform: 25px;
     color: #488284;
     background: transparent;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;}
-.otp{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.otp {
     // background-color: rgba(255, 255, 255, 0.6);
     border-radius: 10px;
     border: 1px solid #eee;
@@ -68,9 +72,9 @@
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
-  }
-  
-.code-container{
+}
+
+.code-container {
     display: flex;
     width: fit-content;
     align-items: center;
@@ -82,7 +86,5 @@ input::-webkit-inner-spin-button {
 .code-container input:focus {
     background-position-x: 35px;
     border: 2px solid #27ffa9;
-    box-shadow:0 0 2px 2px #27ffd76a;
- } 
-
- 
+    box-shadow: 0 0 2px 2px #27ffd76a;
+}
