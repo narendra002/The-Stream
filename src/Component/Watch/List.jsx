@@ -1,44 +1,20 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 import './List.scss';
 
-// import PlayCircleIcon from '@mui/icons-material/PlayCircle';
+const List = () => {
+  const location = useLocation();
+  const { tvShow } = location.state;
 
-const List=()=>{
-return (
-  <>
-         <div className='list'>
-            <ol>
-               <li>The superman</li>
-               <li>The superman</li>
-               <li>The superman</li>
-               <li>The superman</li>
-               <li>The superman</li>
-               <li>The superman</li>
-               <li>The superman</li>
-               <li>The superman</li>
-               <li>The superman</li>
-              <li>The superman</li>
-              <li>The superman</li>
-              <li>The superman</li>
-              <li>The superman</li>
-              <li>The superman</li>
-              <li>The superman</li>
-              <li>The superman</li>
-              <li>The superman</li>
-              <li>The superman</li>
-              <li>The superman</li>
-              <li>The superman</li>
-              <li>The superman</li>
-              <li>The superman</li>
-              <li>The superman</li>
-              <li>The superman</li>
-              <li>The superman</li>
-              
-            </ol>
-        </div>
-        
+  return (
+    <div className='list'>
+      <ol>
+        {tvShow.content.map((show) => (
+          <li key={show._id}>{show.title}</li>
+        ))}
+      </ol>
+    </div>
+  );
+};
 
-  </>
-)
-}
 export default List;
